@@ -1,3 +1,9 @@
+/*PROBLEMA: 
+Através do recebimento da idade de uma pessoa, 
+calcular e mostrar quantidade de dias, 
+horas, minutos e segundos que já viveu.
+(considerar 365 como padrão para ano, não existe bissexto).*/
+
 programa
 {
 	
