@@ -1,3 +1,9 @@
+/*PROBLEMA: 
+Todos os funcionários irão receber além do seu Salário Base uma Gratificação que irá corresponder a 10% do seu Salário Base. 
+Somados Salário Base + Gratificação teremos seu Salário Bruto. Será descontado o IR (Imposto de Renda) 
+de acordo com o Salário Bruto na regra: 
+Até 1.200 = 15% Acima de 1.200 = 20% Imprimir ao final SALARIO BASE, GRATIFICACAO, IR e SALARIO BRUTO*/
+
 programa
 {
 	
