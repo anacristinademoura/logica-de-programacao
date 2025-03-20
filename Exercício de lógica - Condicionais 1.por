@@ -1,3 +1,9 @@
+/*PROBLEMA: 
+Todos os funcionários irão receber além do seu Salário Base uma Gratificação que irá corresponder a 10% do seu Salário Base. 
+Somados Salário Base + Gratificação teremos seu Salário Bruto. Será descontado o IR (Imposto de Renda) 
+de acordo com o Salário Bruto na regra: 
+Até 1.200 = 15% Acima de 1.200 = 20% Imprimir ao final SALARIO BASE, GRATIFICACAO, IR e SALARIO BRUTO*/
+
 programa
 {
 	
@@ -29,14 +35,3 @@ programa
 		escreva("Salário Liquido: R$", salario_liquido, "\n")
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 788; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
