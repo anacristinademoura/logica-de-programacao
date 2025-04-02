@@ -24,7 +24,7 @@ programa
 				leia(matrizA[ln][col])
 			}
 		}
-		escreva("===========================\n")
+		escreva("\n===========================\n")
 		//Recebendo valores matrizB
 		para(inteiro ln=0; ln < 3; ln++){
 			para(inteiro col=0; col < 3; col++){
@@ -38,8 +38,15 @@ programa
 				matrizC[ln][col] = matrizA[ln][col] + matrizB[ln][col]
 			}
 		}
-		escreva("===========================\n")
-		escreva("Soma das matrizes: ", matrizC)
+		escreva("\n===========================\n")
+		escreva("Soma das matrizes:\n")
+		//imprime matrizC
+		para(inteiro ln=0; ln < 3; ln++){
+			para(inteiro col=0; col < 3; col++){
+				escreva(matrizC[ln][col], " ")
+			}
+			escreva("\n")
+		}
 	}
 }
 
@@ -48,7 +55,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 265; 
+ * @POSICAO-CURSOR = 1340; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -11,7 +11,7 @@ programa
 		inteiro matriz[4][3]
 		inteiro maiorSoma = 0
 		inteiro linhaMaiorSoma = 0
-		inteiro soma = 0
+		inteiro soma
 
 		//Percorre a matriz, entrada
 		para(inteiro linha=0; linha < 4; linha++){
@@ -25,14 +25,14 @@ programa
 			soma = 0
 			para(inteiro coluna=0; coluna < 3; coluna++){
 				soma = soma + matriz[linha][coluna]
-				linhaMaiorSoma = matriz[linha][coluna]
 			}
 			se(soma > maiorSoma){
 				maiorSoma = soma
+				linhaMaiorSoma = linha
 			}
 		}
 		
-		escreva("A linha com a maior soma foi a ", linhaMaiorSoma, ": ", maiorSoma)
+		escreva("\nA linha com a maior soma foi a ", linhaMaiorSoma, " com a soma de: ", maiorSoma)
 	}
 }
 
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 149; 
+ * @POSICAO-CURSOR = 764; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
